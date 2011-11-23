@@ -1,0 +1,14 @@
+{
+  "name": "node.packer",
+  "version": "0.0.1",
+  "description": "An assets combine and minify tool",
+  "keywords": ["assets", "asset", "combine", "minify", "packer"],
+  "author": "dreamerslab <ben@dreamerslab.com>",
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dreamerslab/node.packer.git"
+  },
+  "main": "index",
+  "engines": [ "node >= 0.4.0" ]
+}
