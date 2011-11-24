@@ -1,3 +1,7 @@
+## 0.0.3 / 2011-11-24
+
+  - Add more docs
+
 ## 0.0.3 / 2011-11-23
 
   - [bug fix] Uglify js if statement

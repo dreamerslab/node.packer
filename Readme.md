@@ -6,11 +6,12 @@
 
 ## Description
 
-  I had trouble with compressing javascript files using `UglifyJS` so I write this tool to solve my problem. It is built on top of `YUI Compressor`. The compression rate is not as high as `UglifyJS` but it generates a more stable minified javascript file.
+  `node.packer` is a simple tool that uses `YUI Compressor` to combine and minify css and javascript files.
 
 
 
 ## Requires
+
   - node >= 0.4.x
   - java jre6
 
@@ -18,7 +19,16 @@
 
 ## Installation
 
-    npm install
+> Ubuntu install java jre6
+
+    $ sudo apt-get install python-software-properties
+    $ sudo add-apt-repository ppa:ferramroberto/java
+    $ sudo apt-get update
+    $ sudo apt-get install sun-java6-jre
+
+> Install node.packer through npm
+
+    npm install node.packer
 
 
 
