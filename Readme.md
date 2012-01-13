@@ -1,12 +1,12 @@
 # node.packer
 
-  An assets combine and minify tool
+An assets combine and minify tool
 
 
 
 ## Description
 
-  `node.packer` is a simple tool that uses `YUI Compressor` to combine and minify css and javascript files.
+`node.packer` is a simple tool that uses `YUI Compressor` to combine and minify css and javascript files.
 
 
 
