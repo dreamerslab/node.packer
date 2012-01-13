@@ -12,8 +12,8 @@
 
 ## Requires
 
-  - node >= 0.4.x
-  - java jre6
+    node >= 0.4.x
+    java jre6
 
 
 
@@ -21,10 +21,10 @@
 
 > Ubuntu install java jre6
 
-    $ sudo apt-get install python-software-properties
-    $ sudo add-apt-repository ppa:ferramroberto/java
-    $ sudo apt-get update
-    $ sudo apt-get install sun-java6-jre
+    $ sudo apt get install python software properties
+    $ sudo add apt repository ppa:ferramroberto/java
+    $ sudo apt get update
+    $ sudo apt get install sun java6 jre
 
 > Install node.packer through npm
 
@@ -34,47 +34,53 @@
 
 ## Options
 
-### log
-  - description: whether to log errors
-  - data type: boolean
-  - default value: false
-  - possible value: true | false
+> log
 
-### type
-  - description: input files type
-  - data type: string
-  - default value: undefined
-  - possible value: 'css' | 'js'
+    description: whether to log errors
+    data type: boolean
+    default value: false
+    possible value: true | false
 
-### minify
-  - description: whether to minify output file
-  - data type: boolean
-  - default value: false
-  - possible value: true | false
+> type
 
-### uglify
-  - description: whether to uglify javascript variables
-  - data type: boolean
-  - default value: true
-  - possible value: true | false
+    description: input files type
+    data type: string
+    default value: undefined
+    possible value: 'css' | 'js'
 
-### input
-  - description: files to be combined
-  - data type: string
-  - default value: undefined
-  - possible value: '/path/to/the/css.css' ...
+> minify
+    description: whether to minify output file
+    data type: boolean
+    default value: false
+    possible value: true | false
 
-### output
-  - description: path to save the combined file
-  - data type: string
-  - default value: undefined
-  - possible value: '/path/to/the/js.min.js' ...
+> uglify
 
-### callback
-  - description: callback function
-  - data type: function
-  - default value: undefined
-  - possible value: function(err, stdout, stderr) { ... }
+    description: whether to uglify javascript variables
+    data type: boolean
+    default value: true
+    possible value: true | false
+
+> input
+
+    description: files to be combined
+    data type: string
+    default value: undefined
+    possible value: '/path/to/the/css.css' ...
+
+> output
+
+    description: path to save the combined file
+    data type: string
+    default value: undefined
+    possible value: '/path/to/the/js.min.js' ...
+
+> callback
+
+    description: callback function
+    data type: function
+    default value: undefined
+    possible value: function(err, stdout, stderr) { ... }
 
 ## Usage
 
