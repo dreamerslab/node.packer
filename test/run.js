@@ -1,15 +1,16 @@
 var packer = require('../index'),
-    path   = __dirname + '/assets/';
+    src    = __dirname + '/src/',
+    target = __dirname + '/assets/';
 
 packer({
   log: true,
   type: 'js',
   input: [
-    path + 'dojo.js',
-    path + 'jquery.js',
-    path + 'prototype.js'
+    src + 'dojo.js',
+    src + 'jquery.js',
+    src + 'prototype.js'
   ],
-  output: path + 'pack.min.js'
+  output: target + 'pack.min.js'
 });
 
 packer({
@@ -17,8 +18,8 @@ packer({
   minify: true,
   type: 'css',
   input: [
-    path + 'reset.css',
-    path + 'reset-html5.css'
+    src + 'reset.css',
+    src + 'reset-html5.css'
   ],
-  output: path + 'pack.min.css'
+  output: target + 'pack.min.css'
 });

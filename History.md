@@ -1,3 +1,12 @@
+## 0.0.6 / 2012-01-14
+
+  - [bug fix] Multi packer running corruption
+  - doc syntax tuning
+  - add random str method
+  - use v8 native isArray
+
+
+
 ## 0.0.5 / 2011-11-27
 
   - Syntax tuning
