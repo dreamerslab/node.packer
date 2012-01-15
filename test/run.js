@@ -1,6 +1,6 @@
-var packer = require('../index'),
-    src    = __dirname + '/src/',
-    target = __dirname + '/assets/';
+var packer = require('../index');
+var src    = __dirname + '/src/';
+var target = __dirname + '/assets/';
 
 packer({
   log: true,
