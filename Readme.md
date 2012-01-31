@@ -49,6 +49,7 @@ An assets combine and minify tool
     possible value: 'css' | 'js'
 
 > minify
+
     description: whether to minify output file
     data type: boolean
     default value: false
@@ -80,25 +81,25 @@ An assets combine and minify tool
     description: callback function
     data type: function
     default value: undefined
-    possible value: function(err, stdout, stderr) { ... }
+    possible value: function ( err, stdout, stderr ){ ... }
 
 ## Usage
 
 > Example
 
-    var packer = require('node.packer'),
+    var packer = require( 'node.packer' ),
         path   = '~/Desktop/packer/';
 
     packer({
-      log: true,
-      type: 'js',
-      input: [
+      log : true,
+      type : 'js',
+      input : [
         path + 'dojo.js',
         path + 'jquery.js'
       ],
-      output: path + 'pack.min.js',
-      callback: function(err, stdout, stderr) {
-        err && console.log(err);
+      output : path + 'pack.min.js',
+      callback: function ( err, stdout, stderr ){
+        err && console.log( err );
       }
     });
 
