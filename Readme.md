@@ -21,10 +21,10 @@ An assets combine and minify tool
 
 > Ubuntu install java jre6
 
-    $ sudo apt get install python software properties
-    $ sudo add apt repository ppa:ferramroberto/java
-    $ sudo apt get update
-    $ sudo apt get install sun java6 jre
+    $ sudo apt-get install python-software-properties
+    $ sudo add-apt-repository ppa:ferramroberto/java
+    $ sudo apt-get update
+    $ sudo apt-get install sun-java6-jre
 
 > Install node.packer through npm
 
