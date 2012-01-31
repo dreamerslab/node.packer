@@ -1,18 +1,18 @@
 {
-  "name" : "node.packer",
-  "version" : "0.0.6",
-  "description" : "An assets combine and minify tool",
-  "keywords" : [
+  "name"       : "node.packer",
+  "version"    : "0.0.6",
+  "description": "An assets combine and minify tool",
+  "keywords"   : [
     "assets", "asset", "combine", "minify", "packer",
     "yui", "yui compressor", "compressor", "compress"
   ],
-  "author" : "dreamerslab <ben@dreamerslab.com>",
-  "dependencies" : {},
-  "repository" : {
-    "type" : "git",
+  "author"      : "dreamerslab <ben@dreamerslab.com>",
+  "dependencies": {},
+  "repository"  : {
+    "type": "git",
     "url" : "https://github.com/dreamerslab/node.packer.git"
   },
-  "main" : "index",
-  "engines" : [ "node >= 0.4.0" ],
-  "license" : "MIT"
+  "main"   : "index",
+  "engines": [ "node >= 0.4.0" ],
+  "license": "MIT"
 }
