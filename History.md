@@ -1,5 +1,11 @@
 # History
 
+## 0.0.8 / 2012-07-23
+
+- [bug fix] Typo
+
+
+
 ## 0.0.7 / 2012-07-23
 
 - [refactoring] Use `fs` instead of `path` for node v0.8.x
