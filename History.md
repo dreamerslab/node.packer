@@ -1,5 +1,11 @@
 # History
 
+## 1.0.0 / 2012-07-23
+
+- Unpublish `v0.0.7` & `v0.0.8`; make this version the official release
+
+
+
 ## 0.0.8 / 2012-07-23
 
 - [bug fix] Typo
@@ -15,21 +21,21 @@
 ## 0.0.6 / 2012-01-14
 
 - [bug fix] Multi packer running corruption
-- doc syntax tuning
-- add random str method
-- use v8 native isArray
+- [refactoring] Doc syntax tuning
+- [refactoring] Add random str method
+- [refactoring] Use v8 native isArray
 
 
 
 ## 0.0.5 / 2011-11-27
 
-- Syntax tuning
+- [refactoring] Syntax tuning
 
 
 
 ## 0.0.4 / 2011-11-24
 
-- Add more docs
+- [refactoring] Add more docs
 
 
 
