@@ -1,6 +1,6 @@
 {
   "name"       : "node.packer",
-  "version"    : "0.0.6",
+  "version"    : "0.0.7",
   "description": "An assets combine and minify tool",
   "keywords"   : [
     "assets", "asset", "combine", "minify", "packer",
@@ -13,7 +13,7 @@
     "url" : "https://github.com/dreamerslab/node.packer.git"
   },
   "main"    : "index",
-  "engines" : [ "node >= 0.4.0" ],
+  "engines" : [ "node >= 0.8.0" ],
   "licenses": [{
     "type": "MIT",
     "url" : "http://en.wikipedia.org/wiki/MIT_License"
