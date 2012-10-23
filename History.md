@@ -1,5 +1,11 @@
 # History
 
+## 2.0.0 / 2012-10-23
+
+- Use `clean-css` and `uglify-js2` instead of `yui compressor` since it is not mentioned anymore
+
+
+
 ## 1.0.0 / 2012-07-23
 
 - Unpublish `v0.0.7` & `v0.0.8`; make this version the official release
