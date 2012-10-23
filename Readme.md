@@ -6,27 +6,17 @@ An assets combine and minify tool
 
 ## Description
 
-`node.packer` is a simple tool that uses `YUI Compressor` to combine and minify css and javascript files.
+`node.packer` is a simple tool to combine and minify css and javascript files.
 
 
 
 ## Requires
 
     node >= 0.4.x
-    java jre6
 
 
 
 ## Installation
-
-> Ubuntu install java jre6
-
-    $ sudo apt-get install python-software-properties
-    $ sudo add-apt-repository ppa:ferramroberto/java
-    $ sudo apt-get update
-    $ sudo apt-get install sun-java6-jre
-
-> Install node.packer through npm
 
     npm install node.packer
 
@@ -40,13 +30,6 @@ An assets combine and minify tool
     data type: boolean
     default value: false
     possible value: true | false
-
-> type
-
-    description: input files type
-    data type: string
-    default value: undefined
-    possible value: 'css' | 'js'
 
 > minify
 
@@ -92,13 +75,12 @@ An assets combine and minify tool
 
     packer({
       log : true,
-      type : 'js',
       input : [
         path + 'dojo.js',
         path + 'jquery.js'
       ],
       output : path + 'pack.min.js',
-      callback: function ( err, stdout, stderr ){
+      callback: function ( err, code ){
         err && console.log( err );
       }
     });
