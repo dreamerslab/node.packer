@@ -1,8 +1,14 @@
 # History
 
+## 2.0.1 / 2013-01-09
+
+- [update packages] uglify-js->2.2.3, clean-css->0.9.1
+
+
+
 ## 2.0.0 / 2012-10-23
 
-- Use `clean-css` and `uglify-js2` instead of `yui compressor` since it is not mentioned anymore
+- [refactoring] Use `clean-css` and `uglify-js2` instead of `yui compressor` since it is not mentioned anymore
 
 
 
