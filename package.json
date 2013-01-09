@@ -9,7 +9,7 @@
   "author"      : "dreamerslab <ben@dreamerslab.com>",
   "dependencies": {
     "clean-css"  : "0.8.0",
-    "uglify-js2" : "2.1.2"
+    "uglify-js" : "2.1.2"
   },
   "repository"  : {
     "type": "git",
