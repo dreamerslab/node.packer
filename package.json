@@ -1,6 +1,6 @@
 {
   "name"       : "node.packer",
-  "version"    : "2.0.0",
+  "version"    : "2.0.1",
   "description": "An assets combine and minify tool",
   "keywords"   : [
     "assets", "asset", "combine", "minify", "packer",
@@ -8,8 +8,8 @@
   ],
   "author"      : "dreamerslab <ben@dreamerslab.com>",
   "dependencies": {
-    "clean-css"  : "0.8.0",
-    "uglify-js" : "2.1.2"
+    "clean-css"  : "0.9.1",
+    "uglify-js" : "2.2.3"
   },
   "repository"  : {
     "type": "git",
