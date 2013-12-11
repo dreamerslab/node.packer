@@ -1,6 +1,6 @@
 {
   "name"       : "node.packer",
-  "version"    : "2.0.1",
+  "version"    : "2.0.2",
   "description": "An assets combine and minify tool",
   "keywords"   : [
     "assets", "asset", "combine", "minify", "packer",
