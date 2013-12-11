@@ -1,5 +1,11 @@
 # History
 
+## 2.0.3 / 2013-12-11
+
+- [update packages] uglify-js->2.4.7, clean-css->2.0.2
+
+
+
 ## 2.0.2 / 2013-12-11
 
 - [bug fix] Execute callback twice on error

@@ -4,6 +4,7 @@ var target = __dirname + '/assets/';
 
 packer({
   log   : true,
+  minify : true,
   input : [
     src + 'dojo.js',
     src + 'jquery.js',
